@@ -16,7 +16,7 @@ int main(int ac, char **av) {
         file = 0;
         read = 0;
 
-        file = fopen("/tmp/.pass", "r");
+        file = fopen("/tmp/.pass", "r"); // /home/users/level03/.pass
 
         if (!file)
         {
